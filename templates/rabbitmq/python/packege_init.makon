@@ -1,0 +1,15 @@
+<%! 
+import filters.python as filters
+%>
+
+% for fd in root.federates.values():
+"""
+<%include file="/header.makot" args="root=root"/>
+""" 
+% for dt in root.datatypes.values():
+from .${dt.name|filters.cap} import ${dt.name|filters.cap}
+% endfor
+ALMAS-FILE-INFO
+rabbitmq/python/${fd.name|filters.cap}/DataType/__init__.py
+ALMAS-FILE-SEPRATE
+% endfor

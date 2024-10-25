@@ -1,0 +1,3 @@
+ALMAS Code Generator
+project: ${root.project.proj_name}
+Last Edit: ${root.project.edit_time}
