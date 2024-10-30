@@ -11,9 +11,10 @@ import sys
 import threading
 
 class Connection_Almas:
-    def __init__(self) -> None:
-        credentials = pika.PlainCredentials('admin', 'admin_password')
-        parameters = pika.ConnectionParameters(host='localhost', port=5672, credentials=credentials)
+    def __init__(self, config) -> None:
+        self.config = config
+        credentials = pika.PlainCredentials(self.config['login'], self.config['passw'])
+        parameters = pika.ConnectionParameters(host=self.config['host'], port=self.config['port'], credentials=credentials)
         self.sub_connection = pika.BlockingConnection(parameters=parameters)
         self.sub_channel = self.sub_connection.channel()
         result = self.sub_channel.queue_declare('', exclusive=True)

@@ -16,8 +16,8 @@ import DataType
 
 class ${fd.name|filters.cap}_Controller(${fd.name|filters.cap}_Controller_Base):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, config):
+        super().__init__(config)
     
     % for tp in fd.items:
     % if tp.dir == 'subscribe':

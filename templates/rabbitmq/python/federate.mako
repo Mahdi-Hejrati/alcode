@@ -21,8 +21,8 @@ from DataType.${i|filters.cap} import ${i|filters.cap}
 
 class ${fd.name|filters.cap}_Controller_Base(Connection_Almas):
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, config):
+        super().__init__(config)
         % for tp in fd.items:
         self.do_${tp.dir}('${tp.topic.name}')
         % endfor

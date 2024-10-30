@@ -6,12 +6,17 @@ import filters.python as filters
 <%include file="/header.makot" args="root=root"/>
 """
 
+import json
+from pathlib import Path
+
 from ${fd.name|filters.cap}_Controller_Sample import ${fd.name|filters.cap}_Controller
 % for i in [i.name for i in root.datatypes.values()]:
 from DataType.${i|filters.cap} import ${i|filters.cap}
 % endfor
 
-cc = ${fd.name|filters.cap}_Controller()
+config = json.loads(Path('./config.json').read_text())
+
+cc = ${fd.name|filters.cap}_Controller(config)
 
 cc.start()
 

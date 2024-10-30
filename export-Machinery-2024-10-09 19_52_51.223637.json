@@ -1,0 +1,1658 @@
+{
+  "project": {
+    "cetr_time": "2024-09-30T07:30:28",
+    "id": 1,
+    "edit_time": "2024-09-30T07:30:28",
+    "aprv_time": null,
+    "desc1": "machinery",
+    "ids": "6d01a0dc-a329-4462-a31b-6eef1be16179",
+    "user_cetr_id": 1,
+    "user_edit_id": 1,
+    "user_aprv_id": 0,
+    "proj_name": "Machinery",
+    "desc2": "\u067e\u0631\u0648\u0698\u0647 \u0645\u0627\u0634\u06cc\u0646 "
+  },
+  "datatypes": {
+    "1": {
+      "id": 1,
+      "ids": "70b671ba-deff-40fc-9523-7e9313f4db04",
+      "kind": "struct",
+      "name": "Argument",
+      "desc1": " \u062a\u0648\u0636\u06cc\u062d \u06cc\u06a9 \u062e\u0637\u06cc \u0628\u0631\u0627\u06cc \u0645\u062f\u0644 \u062f\u0627\u062f\u0647",
+      "desc2": " \u0627\u06cc\u0646 \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06375",
+      "items": [
+        {
+          "id": 1,
+          "ids": "564c3efd-e6e9-42f0-9a73-3d8bd9cf806c",
+          "name": "ArgKey",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": "ArgKey "
+        },
+        {
+          "id": 2,
+          "ids": "8e8d5214-f7f7-438a-8c69-f67d138fa406",
+          "name": "ArgValue",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "ids": "fc9132de-8af8-4309-8c58-52586c607cf7",
+      "kind": "struct",
+      "name": "CommandInfo",
+      "desc1": " \u062a\u0648\u0636\u06cc\u062d \u06cc\u06a9 \u062e\u0637\u06cc \u0628\u0631\u0627\u06cc \u06a9\u0627\u0645\u0646\u062f \u0627\u06cc\u0646\u0641\u0648",
+      "desc2": "  \u0627\u06cc\u0646 \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06375",
+      "items": [
+        {
+          "id": 3,
+          "ids": "1f14e7bc-1c27-47f9-a5a6-410caa01c260",
+          "name": "CommandCode",
+          "di_type_id": -4,
+          "di_type": {
+            "ids": "Int32--4",
+            "name": "Int32"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 4,
+          "ids": "5dc6f74c-1b0c-416e-bbc8-c936c17515db",
+          "name": "Arg",
+          "di_type_id": 1,
+          "di_type": {
+            "ids": "70b671ba-deff-40fc-9523-7e9313f4db04",
+            "name": "Argument"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "ids": "ae4f1a77-29bb-4a84-a241-39b0a67d8c76",
+      "kind": "struct",
+      "name": "CompartmentInfo",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 5,
+          "ids": "a3f8dd07-fad7-4ea1-8572-532516cd9e98",
+          "name": "CompartmentCrewAboard",
+          "di_type_id": -4,
+          "di_type": {
+            "ids": "Int32--4",
+            "name": "Int32"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 6,
+          "ids": "d519191e-a43f-41fa-903a-19a22f0a1ace",
+          "name": "CompartmentImpenetrable",
+          "di_type_id": -2,
+          "di_type": {
+            "ids": "bool--2",
+            "name": "bool"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 7,
+          "ids": "140ef38c-4adc-45fe-870f-97ff0e10836c",
+          "name": "CompartmentNumbers",
+          "di_type_id": -4,
+          "di_type": {
+            "ids": "Int32--4",
+            "name": "Int32"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "4": {
+      "id": 4,
+      "ids": "d353e5d6-e9f9-419a-9aca-56b91b4bbc3c",
+      "kind": "struct",
+      "name": "DirectionInfo",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 8,
+          "ids": "8fb868cd-dec0-432e-9a3e-109eb64f1f61",
+          "name": "Degree",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 9,
+          "ids": "960b3d4d-2ea5-487f-a608-b4e11c8cad94",
+          "name": "Direction",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "5": {
+      "id": 5,
+      "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+      "kind": "struct",
+      "name": "EnviroMachine",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 10,
+          "ids": "d6b8f94c-9da2-4535-b864-41067739e459",
+          "name": "Slope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 11,
+          "ids": "f96d16ff-4147-4af5-9cdc-197f0daa064e",
+          "name": "Speed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 12,
+          "ids": "5bd38e60-62a4-428c-948c-634f1992191a",
+          "name": "Location",
+          "di_type_id": 6,
+          "di_type": {
+            "ids": "b984ab24-4e3f-4167-915d-8793692ca09b",
+            "name": "LocationInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "6": {
+      "id": 6,
+      "ids": "b984ab24-4e3f-4167-915d-8793692ca09b",
+      "kind": "struct",
+      "name": "LocationInfo",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 13,
+          "ids": "9c1dbd8f-8ab3-49f4-9096-8dedeedf35a2",
+          "name": "Depth",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 14,
+          "ids": "b8745aaa-c518-42a9-9385-ba69567fb0c9",
+          "name": "Latitude",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 15,
+          "ids": "da633cf6-4538-4de8-8be1-a06fb7cec5e9",
+          "name": "Longitude",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "7": {
+      "id": 7,
+      "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+      "kind": "struct",
+      "name": "MachineInfo",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 16,
+          "ids": "9ac39491-d1c0-4e66-8ba9-9086dd42b0c3",
+          "name": "AscentDepth",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 17,
+          "ids": "37582c34-dfd3-4890-907b-ceb063a08280",
+          "name": "AscentSlope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 18,
+          "ids": "dfc81b46-2d96-433f-9501-cd8bcefdd32a",
+          "name": "AscentSpeed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 19,
+          "ids": "1cbdd71b-8fd4-4a34-8db0-56e6d9a8865d",
+          "name": "AscentTime",
+          "di_type_id": -5,
+          "di_type": {
+            "ids": "Int64--5",
+            "name": "Int64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 20,
+          "ids": "d3a3c9fb-c818-4750-a60d-4109ac46b465",
+          "name": "BalanceTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 21,
+          "ids": "8a80ee7c-e79c-4add-98a2-d0385bbb3292",
+          "name": "Blast1TankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 22,
+          "ids": "f6ff4f77-8874-4dfd-a760-f4d044176efe",
+          "name": "Blast2TankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 23,
+          "ids": "ff13c5ea-f816-45e6-837a-320a9d1e9382",
+          "name": "Blast3TankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 24,
+          "ids": "1560398f-f9f2-4137-a221-20188d711347",
+          "name": "Blast4TankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 25,
+          "ids": "7a5383a6-585d-46a6-9fc5-8815c2cec4c8",
+          "name": "BatteryChargePercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 26,
+          "ids": "23e60cc4-9673-43c1-aa12-b76a86b1a577",
+          "name": "BatteryConcentration",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 27,
+          "ids": "27063cc1-9fef-44e2-88cd-f735f70f4c9c",
+          "name": "BatteryEfficiency",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 28,
+          "ids": "bb929373-8d37-4207-bd53-69679a0bcf92",
+          "name": "BilgeTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 29,
+          "ids": "f411b9a8-fc21-454b-9184-f4c76be373a6",
+          "name": "Bulge",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 30,
+          "ids": "f3c78e3c-6959-4890-b52d-6445885799ec",
+          "name": "CO2Percent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 31,
+          "ids": "b56dee44-c71f-4e4d-8018-a728950fe4f0",
+          "name": "ChestBulgeSlope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 32,
+          "ids": "ccd76b7b-4232-400f-8269-3af95cd719d5",
+          "name": "CompressedAirChargePercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 33,
+          "ids": "6e23c98a-5201-4dba-a05d-d95c84228392",
+          "name": "DiveDepth",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 34,
+          "ids": "2d7949a2-b038-43b7-a5fd-64cfb8b70796",
+          "name": "DiveSlope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 35,
+          "ids": "6c5ad23d-4896-4a5f-acae-6a4ee761341c",
+          "name": "DiveSpeed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 36,
+          "ids": "c86e34c0-cf50-48b7-843a-3ae08499e928",
+          "name": "DiveTime",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 37,
+          "ids": "7f261af7-d4c5-43fd-aa32-2f37fafae0ce",
+          "name": "DrinkWaterTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 38,
+          "ids": "e2360170-a762-4486-801c-c58e678aefea",
+          "name": "EconomicEngineSpeed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 39,
+          "ids": "42b0ca6d-c0bc-4962-adcd-c8e65560d25c",
+          "name": "FuelTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 40,
+          "ids": "36a5ae14-e3cd-4d2c-8ea7-893c41125b8b",
+          "name": "H2Percent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 41,
+          "ids": "d0b77f64-5f26-4603-b0a1-d9b5bf488455",
+          "name": "HeelBulgeSlope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 42,
+          "ids": "13ff815c-f972-442f-90a6-ed028776b813",
+          "name": "MainEngineSpeed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 43,
+          "ids": "9c8c830c-3cdc-4b82-a7de-9207d14920c1",
+          "name": "O2Percent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 44,
+          "ids": "0b6b1363-6c0a-4cfb-b62d-db48954ba360",
+          "name": "Operation",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 45,
+          "ids": "104a9699-1833-464b-abed-6e40b32c4aa5",
+          "name": "Slope",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 46,
+          "ids": "38fa1da1-9243-4fe5-b762-100fc725bcf5",
+          "name": "Speed",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 47,
+          "ids": "e07b2082-bc91-4705-af53-3097fd00d1a5",
+          "name": "Tank",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 48,
+          "ids": "288bc285-9af3-43bf-88a3-c58aff33d777",
+          "name": "TrimTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 49,
+          "ids": "f663ca37-82b4-4632-bc41-4d9dee7392e5",
+          "name": "WasteWaterTankFillPercent",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 50,
+          "ids": "ff6c2695-d2ff-4223-b6e9-e043d83219c3",
+          "name": "Weapon",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 51,
+          "ids": "0f212070-2b3e-4c8c-b3ba-ff9d5566515d",
+          "name": "Compartment",
+          "di_type_id": 3,
+          "di_type": {
+            "ids": "ae4f1a77-29bb-4a84-a241-39b0a67d8c76",
+            "name": "CompartmentInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 52,
+          "ids": "01864697-944f-48fe-b1fd-e8e6610fc529",
+          "name": "OperationLocation",
+          "di_type_id": 6,
+          "di_type": {
+            "ids": "b984ab24-4e3f-4167-915d-8793692ca09b",
+            "name": "LocationInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "8": {
+      "id": 8,
+      "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+      "kind": "struct",
+      "name": "Message",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 53,
+          "ids": "9dadba2a-d045-44a0-ae0e-7b6897385a5e",
+          "name": "MainOrigin",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 54,
+          "ids": "daeba373-cec6-42d7-8bc9-8ffe140999f8",
+          "name": "Receiver",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 55,
+          "ids": "64c3e88b-e879-41bf-9d88-393211546e43",
+          "name": "Sender",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 56,
+          "ids": "6cdaebbf-3a57-44fd-8228-a53f8a32820d",
+          "name": "Text",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 57,
+          "ids": "3a31d1f8-adbd-47e3-882b-b78acaba7429",
+          "name": "Time",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "9": {
+      "id": 9,
+      "ids": "56106302-a793-42ca-aaf1-6a669ec64a87",
+      "kind": "struct",
+      "name": "RegionInfo",
+      "desc1": " ",
+      "desc2": "  \u0627\u06cc\u0646 \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06375",
+      "items": [
+        {
+          "id": 58,
+          "ids": "a5aa79f2-e61c-4168-9a44-7ee98a35a870",
+          "name": "Radius",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 59,
+          "ids": "4ef3fd6b-ad3b-402b-a643-90b20b35472f",
+          "name": "Center",
+          "di_type_id": 6,
+          "di_type": {
+            "ids": "b984ab24-4e3f-4167-915d-8793692ca09b",
+            "name": "LocationInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "10": {
+      "id": 10,
+      "ids": "34c512eb-1c86-418e-ab03-08928cd11b82",
+      "kind": "struct",
+      "name": "SeaInfo",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 60,
+          "ids": "dcd3aa34-f982-4ceb-ab55-4f4664c9ad6b",
+          "name": "MaxDepth",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 61,
+          "ids": "2a22032e-0f8c-4b05-a010-b2de957065bd",
+          "name": "MinDepth",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 62,
+          "ids": "1fec74c0-cef6-4152-bc9a-75449bdfacf0",
+          "name": "SeaForce",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 63,
+          "ids": "2931b5cb-81eb-4a0e-8ca9-3d8bb2f3703b",
+          "name": "WaterDens",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 64,
+          "ids": "a205bf95-5812-4290-a388-c1b7ece77f3b",
+          "name": "WaveHeight",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 65,
+          "ids": "e8be8799-4b87-4cc4-87ba-7af94c227ce4",
+          "name": "Region",
+          "di_type_id": 9,
+          "di_type": {
+            "ids": "56106302-a793-42ca-aaf1-6a669ec64a87",
+            "name": "RegionInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 66,
+          "ids": "8d3c561a-b571-4e24-86b1-e4cf2bff5fa7",
+          "name": "WaveDirection",
+          "di_type_id": 4,
+          "di_type": {
+            "ids": "d353e5d6-e9f9-419a-9aca-56b91b4bbc3c",
+            "name": "DirectionInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "11": {
+      "id": 11,
+      "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+      "kind": "struct",
+      "name": "SendCommand",
+      "desc1": " ",
+      "desc2": " ",
+      "items": [
+        {
+          "id": 67,
+          "ids": "a9bd8beb-2925-426b-badd-1c900bcdd677",
+          "name": "Receiver",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 68,
+          "ids": "2d173392-8c2f-4f5d-8930-a0360fd26529",
+          "name": "Sender",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 69,
+          "ids": "3e36c78a-57c5-4ec3-83ac-f1635ffa8a1d",
+          "name": "Time",
+          "di_type_id": -9,
+          "di_type": {
+            "ids": "string--9",
+            "name": "string"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 70,
+          "ids": "e4cff9ff-cda0-407e-8bc7-3747e48ac650",
+          "name": "Command",
+          "di_type_id": 2,
+          "di_type": {
+            "ids": "fc9132de-8af8-4309-8c58-52586c607cf7",
+            "name": "CommandInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "12": {
+      "id": 12,
+      "ids": "2975352e-7265-4baa-a8b8-e7fdcf7ab97a",
+      "kind": "struct",
+      "name": "WeatherInfo",
+      "desc1": "  \u0627\u06cc\u0646 \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06371 \u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06372 \u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06373 \u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06374 \u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06375",
+      "desc2": "  \u0627\u06cc\u0646 \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646  \u0646\u0648\u0639 \u062f\u0627\u062f\u0647 \u0627\u0633\u062a \u062e\u06375",
+      "items": [
+        {
+          "id": 71,
+          "ids": "96644c18-a120-4f7b-bdbd-602047f693ef",
+          "name": "AirTemp",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 72,
+          "ids": "88d73f28-74ab-4caf-8e18-3ba174b69c20",
+          "name": "Weather",
+          "di_type_id": -8,
+          "di_type": {
+            "ids": "Real64--8",
+            "name": "Real64"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 73,
+          "ids": "03702b04-6377-4379-bc6b-5d9f72d6906b",
+          "name": "Region",
+          "di_type_id": 9,
+          "di_type": {
+            "ids": "56106302-a793-42ca-aaf1-6a669ec64a87",
+            "name": "RegionInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 74,
+          "ids": "f4d6735d-eb73-4c3c-bf52-dd298649d33e",
+          "name": "WindDirection",
+          "di_type_id": 4,
+          "di_type": {
+            "ids": "d353e5d6-e9f9-419a-9aca-56b91b4bbc3c",
+            "name": "DirectionInfo"
+          },
+          "di_value": 0,
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    }
+  },
+  "federates": {
+    "1": {
+      "id": 1,
+      "ids": "2bdecae4-b872-45f9-a0f4-ed4fda6b8a23",
+      "name": "Machinery",
+      "desc1": "\u0627\u06cc\u0646 \u062a\u0648\u0636\u06cc\u062d \u0628\u0627\u06cc\u062f \u062f\u0631 \u062f\u0631 \u06cc\u06a9 \u062e\u0637 \u062f\u06cc\u062f\u0647 \u0634\u0648\u062fmachine",
+      "desc2": "machine\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06375\n",
+      "login": "admin",
+      "passw": "admin_password",
+      "token": null,
+      "ip": null,
+      "mac": null,
+      "host": "localhost",
+      "port": 5672,
+      "connectionType": "TCP",
+      "liveness": 10,
+      "items": [
+        {
+          "id": 1,
+          "ids": "bedabdf9-cb89-4bfc-b0a2-cc10ae8229bb",
+          "topic_id": 3,
+          "dir": "publish",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 2,
+          "ids": "bf232450-7759-401e-9e19-b04ec3373909",
+          "topic_id": 5,
+          "dir": "publish",
+          "topic": {
+            "id": 5,
+            "ids": "4fa0fa98-eb44-41d4-8201-1a387a89c323",
+            "name": "EnviroMachine",
+            "start_type_id": 5,
+            "start_type": {
+              "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+              "name": "EnviroMachine"
+            },
+            "end_type_id": 5,
+            "end_type": {
+              "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+              "name": "EnviroMachine"
+            },
+            "desc1": "EnviroMachine",
+            "desc2": "EnviroMachine",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 3,
+          "ids": "265f0536-b47e-4c66-8bf7-7d0100e54738",
+          "topic_id": 6,
+          "dir": "publish",
+          "topic": {
+            "id": 6,
+            "ids": "ad76994e-4239-4ab6-a937-a4404240b92a",
+            "name": "MachineInfo",
+            "start_type_id": 7,
+            "start_type": {
+              "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+              "name": "MachineInfo"
+            },
+            "end_type_id": 7,
+            "end_type": {
+              "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+              "name": "MachineInfo"
+            },
+            "desc1": "MachineInfo",
+            "desc2": "MachineInfo",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 4,
+          "ids": "02ab1203-f344-4e8b-87a6-0444c981a004",
+          "topic_id": 3,
+          "dir": "subscribe",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 5,
+          "ids": "1e30c4b1-7f90-4e72-a113-e863e303f25e",
+          "topic_id": 4,
+          "dir": "subscribe",
+          "topic": {
+            "id": 4,
+            "ids": "cae3e2f0-736f-4281-bd4f-277f158f0655",
+            "name": "SendCommand",
+            "start_type_id": 11,
+            "start_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "end_type_id": 11,
+            "end_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "desc1": "SendCommand",
+            "desc2": "SendCommand",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "2": {
+      "id": 2,
+      "ids": "b0d7b56f-fd7f-44bd-a0ff-db8850ab9c6a",
+      "name": "ExerciseManager",
+      "desc1": "ExerciseManager",
+      "desc2": "Exercise Manager\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06375",
+      "login": "admin",
+      "passw": "admin_password",
+      "token": null,
+      "ip": null,
+      "mac": null,
+      "host": "localhost",
+      "port": 5672,
+      "connectionType": "TCP",
+      "liveness": 2,
+      "items": [
+        {
+          "id": 6,
+          "ids": "b43d3286-46e2-4688-a3a1-5c44763e0173",
+          "topic_id": 3,
+          "dir": "subscribe",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 7,
+          "ids": "2c6ea8bf-eab4-4415-b82d-7dffe272b2e5",
+          "topic_id": 5,
+          "dir": "subscribe",
+          "topic": {
+            "id": 5,
+            "ids": "4fa0fa98-eb44-41d4-8201-1a387a89c323",
+            "name": "EnviroMachine",
+            "start_type_id": 5,
+            "start_type": {
+              "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+              "name": "EnviroMachine"
+            },
+            "end_type_id": 5,
+            "end_type": {
+              "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+              "name": "EnviroMachine"
+            },
+            "desc1": "EnviroMachine",
+            "desc2": "EnviroMachine",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 8,
+          "ids": "65404550-fcf9-45df-8efd-36b6079ffec6",
+          "topic_id": 6,
+          "dir": "subscribe",
+          "topic": {
+            "id": 6,
+            "ids": "ad76994e-4239-4ab6-a937-a4404240b92a",
+            "name": "MachineInfo",
+            "start_type_id": 7,
+            "start_type": {
+              "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+              "name": "MachineInfo"
+            },
+            "end_type_id": 7,
+            "end_type": {
+              "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+              "name": "MachineInfo"
+            },
+            "desc1": "MachineInfo",
+            "desc2": "MachineInfo",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 9,
+          "ids": "5707f72f-551d-4534-b24b-4943186e6ffe",
+          "topic_id": 3,
+          "dir": "publish",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 10,
+          "ids": "0ac377d8-017f-4ed1-a3fc-ca080839a692",
+          "topic_id": 4,
+          "dir": "publish",
+          "topic": {
+            "id": 4,
+            "ids": "cae3e2f0-736f-4281-bd4f-277f158f0655",
+            "name": "SendCommand",
+            "start_type_id": 11,
+            "start_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "end_type_id": 11,
+            "end_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "desc1": "SendCommand",
+            "desc2": "SendCommand",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    },
+    "3": {
+      "id": 3,
+      "ids": "d831ca6e-2ad4-45e6-b628-e1e7e1d4bf59",
+      "name": "Commander",
+      "desc1": " \u0627\u06cc\u0646 \u06cc\u06a9 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a",
+      "desc2": "\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06371\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06372\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06373\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06374\n\u0627\u06cc\u0646 \u0641\u062f\u0631\u06cc\u062a \u0627\u0633\u062a \u062e\u06375",
+      "login": "admin",
+      "passw": "admin_password",
+      "token": null,
+      "ip": null,
+      "mac": null,
+      "host": "localhost",
+      "port": 5672,
+      "connectionType": "TCP",
+      "liveness": 2,
+      "items": [
+        {
+          "id": 11,
+          "ids": "9599ca8d-2170-4b26-bc83-9aef9ae97ea0",
+          "topic_id": 4,
+          "dir": "publish",
+          "topic": {
+            "id": 4,
+            "ids": "cae3e2f0-736f-4281-bd4f-277f158f0655",
+            "name": "SendCommand",
+            "start_type_id": 11,
+            "start_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "end_type_id": 11,
+            "end_type": {
+              "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+              "name": "SendCommand"
+            },
+            "desc1": "SendCommand",
+            "desc2": "SendCommand",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 12,
+          "ids": "dddac238-f390-40fd-9bf3-b27829b5450f",
+          "topic_id": 3,
+          "dir": "publish",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 13,
+          "ids": "b9c59a55-322b-437c-b5ac-4ae2722ab46f",
+          "topic_id": 3,
+          "dir": "subscribe",
+          "topic": {
+            "id": 3,
+            "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+            "name": "Message",
+            "start_type_id": 8,
+            "start_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "end_type_id": 8,
+            "end_type": {
+              "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+              "name": "Message"
+            },
+            "desc1": "Message",
+            "desc2": "Message",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 14,
+          "ids": "d57b8798-b1ea-44ee-b11a-babecdf9dedd",
+          "topic_id": 2,
+          "dir": "subscribe",
+          "topic": {
+            "id": 2,
+            "ids": "533c2c03-132d-472f-83a8-29a923c4bd49",
+            "name": "SeaInfo",
+            "start_type_id": 10,
+            "start_type": {
+              "ids": "34c512eb-1c86-418e-ab03-08928cd11b82",
+              "name": "SeaInfo"
+            },
+            "end_type_id": 10,
+            "end_type": {
+              "ids": "34c512eb-1c86-418e-ab03-08928cd11b82",
+              "name": "SeaInfo"
+            },
+            "desc1": " ",
+            "desc2": " SeaInfo",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        },
+        {
+          "id": 15,
+          "ids": "00613166-3f97-4425-a60b-d7f7dd3afccf",
+          "topic_id": 1,
+          "dir": "subscribe",
+          "topic": {
+            "id": 1,
+            "ids": "2a833695-901a-4ed5-9d4c-490c2d1ef15b",
+            "name": "weatherInfo",
+            "start_type_id": 12,
+            "start_type": {
+              "ids": "2975352e-7265-4baa-a8b8-e7fdcf7ab97a",
+              "name": "WeatherInfo"
+            },
+            "end_type_id": 12,
+            "end_type": {
+              "ids": "2975352e-7265-4baa-a8b8-e7fdcf7ab97a",
+              "name": "WeatherInfo"
+            },
+            "desc1": "topic weather",
+            "desc2": " ",
+            "graph": null
+          },
+          "desc1": " ",
+          "desc2": " "
+        }
+      ]
+    }
+  },
+  "topics": {
+    "1": {
+      "id": 1,
+      "ids": "2a833695-901a-4ed5-9d4c-490c2d1ef15b",
+      "name": "weatherInfo",
+      "start_type_id": 12,
+      "start_type": {
+        "ids": "2975352e-7265-4baa-a8b8-e7fdcf7ab97a",
+        "name": "WeatherInfo"
+      },
+      "end_type_id": 12,
+      "end_type": {
+        "ids": "2975352e-7265-4baa-a8b8-e7fdcf7ab97a",
+        "name": "WeatherInfo"
+      },
+      "desc1": "topic weather",
+      "desc2": " ",
+      "graph": null
+    },
+    "2": {
+      "id": 2,
+      "ids": "533c2c03-132d-472f-83a8-29a923c4bd49",
+      "name": "SeaInfo",
+      "start_type_id": 10,
+      "start_type": {
+        "ids": "34c512eb-1c86-418e-ab03-08928cd11b82",
+        "name": "SeaInfo"
+      },
+      "end_type_id": 10,
+      "end_type": {
+        "ids": "34c512eb-1c86-418e-ab03-08928cd11b82",
+        "name": "SeaInfo"
+      },
+      "desc1": " ",
+      "desc2": " SeaInfo",
+      "graph": null
+    },
+    "3": {
+      "id": 3,
+      "ids": "9cd5dde0-61fd-48a7-93ae-36e124ef71ad",
+      "name": "Message",
+      "start_type_id": 8,
+      "start_type": {
+        "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+        "name": "Message"
+      },
+      "end_type_id": 8,
+      "end_type": {
+        "ids": "03a801b3-d4be-4774-9325-ba6d97472c66",
+        "name": "Message"
+      },
+      "desc1": "Message",
+      "desc2": "Message",
+      "graph": null
+    },
+    "4": {
+      "id": 4,
+      "ids": "cae3e2f0-736f-4281-bd4f-277f158f0655",
+      "name": "SendCommand",
+      "start_type_id": 11,
+      "start_type": {
+        "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+        "name": "SendCommand"
+      },
+      "end_type_id": 11,
+      "end_type": {
+        "ids": "afabbce3-1c17-4e73-965b-e833675a1da1",
+        "name": "SendCommand"
+      },
+      "desc1": "SendCommand",
+      "desc2": "SendCommand",
+      "graph": null
+    },
+    "5": {
+      "id": 5,
+      "ids": "4fa0fa98-eb44-41d4-8201-1a387a89c323",
+      "name": "EnviroMachine",
+      "start_type_id": 5,
+      "start_type": {
+        "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+        "name": "EnviroMachine"
+      },
+      "end_type_id": 5,
+      "end_type": {
+        "ids": "b8ecf4ff-a65b-46b1-9139-63c6c13cb116",
+        "name": "EnviroMachine"
+      },
+      "desc1": "EnviroMachine",
+      "desc2": "EnviroMachine",
+      "graph": null
+    },
+    "6": {
+      "id": 6,
+      "ids": "ad76994e-4239-4ab6-a937-a4404240b92a",
+      "name": "MachineInfo",
+      "start_type_id": 7,
+      "start_type": {
+        "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+        "name": "MachineInfo"
+      },
+      "end_type_id": 7,
+      "end_type": {
+        "ids": "584beb2d-6dcd-4e1f-9422-90fa40838beb",
+        "name": "MachineInfo"
+      },
+      "desc1": "MachineInfo",
+      "desc2": "MachineInfo",
+      "graph": null
+    }
+  },
+  "users": {
+    "1": "admin"
+  }
+}
