@@ -1,0 +1,25 @@
+<%! 
+import filters.csharp as filters
+%>
+
+% for fd in root.federates.values():
+/*
+<%include file="/header.makot" args="root=root"/>
+*/ 
+% for dt in root.datatypes.values():
+using ${fd.name|filters.cap}.DataType.${dt.name|filters.cap};
+% endfor
+
+namespace ${fd.name|filters.cap}.DataType
+{
+    public static class DataTypeLoader
+    {
+        // Static initialization or other data type management code can go here if needed.
+    }
+}
+
+ALMAS-FILE-INFO
+rabbitmq/csharp/${fd.name|filters.cap}/DataType/DataTypeLoader.cs
+ALMAS-FILE-SEPRATE
+% endfor
+
