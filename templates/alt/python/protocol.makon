@@ -1,0 +1,62 @@
+<%! 
+import filters.python as filters
+%>
+% for fd in root.federates.values(): 
+"""
+<%include file="/header.makot" args="root=root"/>
+"""
+
+import sys
+import threading
+import ctypes
+from sys import platform
+
+class Connection_Almas:
+    def __init__(self, config) -> None:
+        self.config = config
+
+        self.Connection = ctypes.CDLL('./libSDKUtils.so')
+        self.Connection.init.argtypes = [ctypes.c_char_p, ctypes.c_int, ctypes.c_char_p, ctypes.c_char_p]
+        self.Connection.init.restype = ctypes.c_int
+        self.Connection.publish.argtypes = [ctypes.c_char_p, ctypes.c_char_p]
+        self.Connection.publish.restype = ctypes.c_int
+        self.Connection.register_subscribe.argtypes = [ctypes.c_char_p, ctypes.c_void_p]
+        self.Connection.register_subscribe.restype = ctypes.c_int
+        if platform == "win32":
+            self.CALLBACKFUNC = ctypes.WINFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p)
+        else:
+            self.CALLBACKFUNC = ctypes.CFUNCTYPE(ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p, ctypes.c_void_p)
+        self.Connection.start.argtypes = [ctypes.c_char_p, self.CALLBACKFUNC]
+        self.Connection.start.restype = ctypes.c_int
+
+        self.Connection.init(
+            self.config['host'].encode('utf-8'), 
+            self.config['port'], 
+            self.config['login'].encode('utf-8'), 
+            self.config['passw'].encode('utf-8')
+        )
+
+
+    def do_subscribe(self, topic):
+        pass
+
+    def do_publish(self, topic):
+        pass
+
+    def publish(self, topic, Serialized):
+        self.Connection.publish(topic.encode('utf-8'), Serialized.encode('utf-8'))
+
+    def start(self):
+        self.receiveFinal = self.CALLBACKFUNC(self.receive)
+        self.Connection.start(self.receiveFinal)
+        pass
+
+    def receive(self, topic, body, meta):
+        pass
+
+
+ALMAS-FILE-INFO
+alt/python/${fd.name|filters.cap}/Core/protocol.py
+ALMAS-FILE-SEPRATE
+% endfor
+

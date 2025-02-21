@@ -27,6 +27,11 @@ class ${dt.name|filters.cap}:
         self.storage['${di.name}'] = ${di.name}
         % endfor
 
+    @classmethod
+    def Deserialize(cls, data):
+        return cls(**(json.loads(data))))
+
+
     % for di in dt.items:
     % if di.desc1.strip():
     # ${di.desc1}
@@ -45,7 +50,7 @@ class ${dt.name|filters.cap}:
     % endfor
 
     def Serialize(self):
-        return self.storage
+        return json.dumps(self.storage)
 
 
 % for fd in root.federates.values(): 
